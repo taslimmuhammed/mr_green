@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mr_green/static/css/main.42e3e202.chunk.css",
+    "main.js": "/mr_green/static/js/main.48976414.chunk.js",
+    "main.js.map": "/mr_green/static/js/main.48976414.chunk.js.map",
+    "runtime-main.js": "/mr_green/static/js/runtime-main.ab5ce2e4.js",
+    "runtime-main.js.map": "/mr_green/static/js/runtime-main.ab5ce2e4.js.map",
+    "static/js/2.4ef6687f.chunk.js": "/mr_green/static/js/2.4ef6687f.chunk.js",
+    "static/js/2.4ef6687f.chunk.js.map": "/mr_green/static/js/2.4ef6687f.chunk.js.map",
+    "index.html": "/mr_green/index.html",
+    "static/css/main.42e3e202.chunk.css.map": "/mr_green/static/css/main.42e3e202.chunk.css.map",
+    "static/js/2.4ef6687f.chunk.js.LICENSE.txt": "/mr_green/static/js/2.4ef6687f.chunk.js.LICENSE.txt",
+    "static/media/car.83a5b5dc.jpeg": "/mr_green/static/media/car.83a5b5dc.jpeg",
+    "static/media/clean.3c808b1f.jpeg": "/mr_green/static/media/clean.3c808b1f.jpeg",
+    "static/media/env.e309c639.jpeg": "/mr_green/static/media/env.e309c639.jpeg",
+    "static/media/green_king.2f6dfe3d.png": "/mr_green/static/media/green_king.2f6dfe3d.png",
+    "static/media/plant_a_tree.349592f8.jpg": "/mr_green/static/media/plant_a_tree.349592f8.jpg",
+    "static/media/plant_logo.5b752351.png": "/mr_green/static/media/plant_logo.5b752351.png",
+    "static/media/planting.3e2bff54.png": "/mr_green/static/media/planting.3e2bff54.png",
+    "static/media/user.007906a6.jpg": "/mr_green/static/media/user.007906a6.jpg",
+    "static/media/water.246de1c6.jpg": "/mr_green/static/media/water.246de1c6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab5ce2e4.js",
+    "static/js/2.4ef6687f.chunk.js",
+    "static/css/main.42e3e202.chunk.css",
+    "static/js/main.48976414.chunk.js"
+  ]
+}
