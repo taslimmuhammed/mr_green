@@ -21,7 +21,7 @@ export default function Signup() {
          userName:userName,
          phone:phone,
       
-       }).then().then(()=>history.push("/profile"))
+       }).then(()=>history.push("/profile"))
     
      })
    })

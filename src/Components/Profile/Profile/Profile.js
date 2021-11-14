@@ -18,12 +18,13 @@ function Profile() {
   const {firebase} = useContext(FireBaseContext);
   const {user} = useContext(AuthContext);
   const {PostDetails, setPostDetails} = useContext(PostContext);
-  const [points, setpoints] = useState(0);
+   
+  var [points, setPoints] = useState(0);
    useEffect(() => {
       firebase.firestore().collection('products').get().then((snapshot)=>{
          const allPost = snapshot.docs.filter((product)=>(
           product.data().userId == user.uid )).map((pdt)=>{
-          
+           setPoints(points+=1)
           return{
               ...pdt.data(), id:pdt.id
             }
@@ -42,7 +43,7 @@ function Profile() {
                  <div className="hello">Hello,</div>
                  <div className="displayName"> {user.displayName}</div>
                  <div className="point-header">Your Total Points:</div>
-                <span className="point">{points}</span><img src={plant} className="plant"></img>
+                <span className="point"></span><img src={plant} className="plant"></img>
                  <div className="seperator"></div>
                  <div className="point-header">Badge:</div>
                  <div className="badge"><img  src={badge} style={{width:75, height:75}}></img></div>
@@ -62,9 +63,9 @@ function Profile() {
  <Row className="car ds">
 
  {MyProducts.map(product=>{
-            
+             
              if(product.verification) {
-              points+=1;
+            
               return(
               <Col lg={6} md={6} xs={12}>
               <div className="card-main">

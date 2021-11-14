@@ -26,8 +26,8 @@ const Create = () => {
       userId:user.uid,
       verification:false
     })
-  .then(alert("Your Project has been submitted successfully. It will be verified by admin ").then(history.push("/profile")))}))
-  
+  .then(alert("Your Project has been submitted successfully. It will be verified by admin "))}))
+  .then(history.push("/profile"))
  }  
   return (
     // <Fragment >

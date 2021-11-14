@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import './NavBar.css'
-
+import { useHistory } from 'react-router';
 import {
   AiFillStar,
   AiOutlineHome,
@@ -17,7 +17,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
+  const history = useHistory();
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -52,7 +52,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item onClick={()=>history.push("/")} >
               <Nav.Link 
               // as={Link} 
               to="/" onClick={() => updateExpanded(false)}>
@@ -60,7 +60,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item  onClick={()=>history.push("/signup")}>
               <Nav.Link
                 // as={Link}
                 to="/about"

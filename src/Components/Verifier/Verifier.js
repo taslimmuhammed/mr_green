@@ -37,7 +37,7 @@ function Profile() {
         <div className="m1">
      <div className="conatin">
           <h1>Your Works</h1>
- <Row className="car ds">
+ <Row className="cards">
 
  {MyProducts.map(product=>{
             //  if(product.verification!=true){
@@ -49,12 +49,20 @@ function Profile() {
                         <div className="card-heading">{product.name}</div>
                         <div className="card-text">{product.Description}</div>
                     
-                        <button onClick={()=> {product.verification= true;
-                     }}
+                        <button onClick={()=> 
+                        // alert("project verified") 
+                        firebase.firestore().collection("products")
+                   .doc(product.id)
+                     .update({
+                    verification: true,
+
+                     }).then(alert("Verified sucessfully")).then(history.push("/signup"))
+                   } 
+                
                         >verfify</button>
                     <div className="favorite" onClick={()=>
-            firebase.firestore().collection('products').doc(product.id).delete().then(()=>{
-                alert(`${product.name} deleted succesfully`);
+           firebase.firestore().collection('products').doc(product.id).delete().then(()=>{
+                alert(`${product.name}  deleted succesfully`);
                 history.push("/verify")
 
             }).catch(()=>alert(`Error, could not delete the item`))} className="delete">
