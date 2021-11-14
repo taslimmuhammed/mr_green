@@ -1,0 +1,115 @@
+.main{
+    background: rgb(180,180,180);
+    background-size: cover;
+    margin-top: -100px;
+    padding-top: 200px;
+  min-height: 110vh;
+}
+.hello{
+    margin-top: 75px;
+margin-left:50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+}
+.displayName{
+margin-left:50px;
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+
+
+}
+.plant{
+    height: 53px;
+    width: 53px;
+    margin-top: -20px;
+
+}
+.point-header{
+margin-left:50px;
+margin-top: 50px;
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+
+}
+.point{
+    margin-left:75px;
+   margin-top: 20px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #0F704D;
+}
+.seperator{
+    width:250px;
+    height: 2px;
+    background-color: black;
+    margin-left: 35px;
+}
+.badge{
+    margin-left:100px;
+    margin-top: 15px;
+   /* width: 30px;
+   height: 30px; */
+   border-radius: 50px;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.button-o2{
+
+width: 345px;
+height: 72px;
+background: #20580C;
+text-align: center;
+justify-content: center;
+padding-top: 10px;
+/* Contribute */
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+
+color: #FFFFFF;
+
+
+
+}
+.button-o1{
+margin-top: 40px;
+margin-left: 20px;
+margin-bottom: 20px;
+width: 353px;
+height: 81px;
+background: #FFFFFF;
+padding: 4px;
+}
+.user-image{
+    height: 500px;
+    width:500px;
+}
+@media (max-width: 767px){
+    .user-image{
+        height: 400px;
+        width:400px;
+    } 
+}

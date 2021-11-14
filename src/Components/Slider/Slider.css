@@ -1,0 +1,27 @@
+.slidier{
+width: 70vh;
+height: 70vw;
+    background-image:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40casafari%2Fdoing-good-as-a-team-we-went-beach-cleaning-7bf5cba49094&psig=AOvVaw3-lRiKPJotx7biC7Su7fx0&ust=1636947133208000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjRrbb1lvQCFQAAAAAdAAAAABAD');
+    background-size: cover;
+    color:white;
+    height: 448px;
+}
+.slider-img{
+    width: 80vw;
+    height: 80vh;
+    background-color: slateblue;
+}
+.c-slider{
+    width: 80vw;
+    height: 80vh;
+    margin-left: 50px;
+    margin-top: 75px;
+    background-color: slateblue;
+}
+.c-heading{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+h3{
+    color: springgreen;
+}

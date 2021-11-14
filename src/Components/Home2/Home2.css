@@ -1,0 +1,73 @@
+.card{
+/* Rectangle 6 */
+margin-top: 75px;
+width: 403px;
+height: 602px;
+/* left: 151px;*/
+/* top: 1169px;  */
+
+background: rgba(22, 38, 21, 0.35);
+border-radius: 30px;
+
+}
+.card-img{
+
+width: 403px;
+height: 335px;
+border-radius: 34px;
+
+}
+.card-heading{
+/* Plant a Tree */
+
+
+/* left: 232px;
+top: 1536px; */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+margin-top: 15px;
+margin-left: 60px;
+color: #FFFFFF;
+
+
+}
+.card-text{
+/* "One touch of nature makes the whole world kin." */
+width: 320px;
+height: 76px;
+margin-top: 50px;
+margin-left: 40px;
+font-family: Roboto;
+font-style: italic;
+font-weight: 300;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+
+}
+h1{
+    /* What you can do to get points? */
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 79px;
+
+color: #000000;
+
+
+}
+.conatin{
+    padding-left: 10vw;
+    padding-top: 20vh;
+}
+.cards{
+    margin-top: 100px;
+}

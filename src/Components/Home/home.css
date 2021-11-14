@@ -1,0 +1,47 @@
+.main{
+    background: rgb(180,180,180);
+    background-size: cover;
+ 
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: seashell;
+}
+
+.Welcome{
+left: 103px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 35px;
+max-width:400px;
+
+color: #FFFFFF;
+
+
+
+}
+h1{
+   color:white;
+}
+.H{
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+
+
+}
+.home-content{
+    padding-top:150px;
+    min-height:90vh;
+}
+/* .carousel{
+    /* max-width:70vw;
+    max-height: 70vh; */
+    /* padding-top: 100px; */
