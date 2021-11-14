@@ -25,7 +25,7 @@ const {firebase} = useContext(FireBaseContext)
     
       <Router basename="">
         <Route exact path="/"> <Home/></Route>
-        {/* <Redirect to='/signup' path="/olx"> </Redirect> */}
+        <Redirect to='/' path="/mr_green"> </Redirect>
         <Route path="/signup"><Signup /></Route>
         <Route path="/verify"><Verify /></Route>
         <Route path="/profile"><Profile/></Route>
